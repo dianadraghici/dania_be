@@ -21,6 +21,6 @@ public class Product {
     private Integer productId;
     private String imageName;
     private String name;
-    private BigDecimal price;
+    private Double price;
 
 }
