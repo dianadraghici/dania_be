@@ -21,7 +21,7 @@ public class ProductController {
 
     private final ProductService productService;
 
-    @CrossOrigin(origins = "http://evening-oasis-23829.herokuapp.com/")
+    @CrossOrigin(origins = "http://evening-oasis-23829.herokuapp.com")
     @GetMapping
     public List<ProductDTO> getAllProducts() {
         return productService.getAllProducts ();
